@@ -1,0 +1,661 @@
+@media (max-width: 1280px) {
+
+    header {
+        background-image: url('/images/header/header.jpg');
+        height: 90vh;
+    }
+
+    .text-header {
+        position: relative;
+        color: white;
+        top: 40%;
+        opacity: 0;
+        transition: ease .5s;
+    }
+
+    h1 {
+        font-size: 90px !important;
+        letter-spacing: 20px;
+    }
+
+    .sub-title {
+        font-size: 20px;
+        margin-left: 10em;
+    }
+
+    header #forest_front,
+    #gajah,
+    #pohon,
+    #overlays {
+        display: none;
+    }
+
+    .mx-custom {
+        margin: 0 180px;
+    }
+
+    .carousel-indicators {
+        margin-left: 5em !important;
+        bottom: 5em !important;
+        color: #fff !important;
+        width: 50%;
+        bottom: 10px !important;
+    }
+
+
+    .tahun-indicator {
+        position: absolute;
+        z-index: 6;
+        color: white;
+        bottom: 3%;
+        left: .5em;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    header {
+        background-image: url('/images/header/header.jpg');
+        height: 50vh;
+        background-attachment: scroll;
+
+    }
+
+    h1 {
+        font-size: 50px !important;
+        letter-spacing: 18px;
+    }
+
+    .sub-title {
+        font-size: 15px;
+        margin-left: 5.5em;
+    }
+
+    .text-header {
+        position: relative;
+        color: white;
+        top: 30%;
+        opacity: 0;
+        transition: ease .5s;
+    }
+
+    header #forest_front,
+    #gajah,
+    #pohon,
+    #overlays {
+        position: absolute;
+        top: 0em;
+        left: 0;
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    .mx-custom {
+        margin: 0 40px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 0 !important;
+        height: 0 !important;
+        text-indent: 0px !important;
+        border-radius: 50%;
+        color: #fff !important;
+        margin: 0 20px !important;
+
+    }
+
+
+
+    .carousel-item {
+        width: 100%;
+        height: 800px;
+    }
+
+    .tahun-indicator {
+        position: absolute;
+        z-index: 6;
+        color: white;
+        bottom: 3%;
+        left: .5em;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px;
+    }
+
+    .box {
+        width: 80%;
+        height: 100%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5466780462184874) 20%, rgba(0, 0, 0, 0.8043811274509804) 35%, rgba(0, 0, 0, 0.9472382703081232) 90%, rgba(0, 0, 0, 1) 100%);
+        position: absolute;
+        right: 0;
+        z-index: 2;
+    }
+
+    .carousel-item {
+        width: 100%;
+        height: 820px;
+    }
+
+    .carousel-indicators {
+        margin-left: 15em !important;
+        bottom: 5em !important;
+        color: #fff !important;
+        width: 30%;
+        bottom: 10px !important;
+    }
+
+
+    .tahun-indicator {
+        position: absolute;
+        z-index: 6;
+        color: white;
+        bottom: 3%;
+        left: .5em;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        width: 100%;
+        height: 730px;
+        background-attachment: scroll;
+
+    }
+
+    #overlays {
+        top: 0;
+        width: 180%;
+        height: auto;
+        position: absolute;
+        display: none;
+    }
+
+    h1 {
+        font-size: 60px !important;
+        letter-spacing: 20px;
+        text-align: center;
+    }
+
+    .sub-title {
+        font-size: 18px;
+        margin-left: 0em;
+        text-align: center;
+    }
+
+    .text-header {
+        position: relative;
+        color: white;
+        top: 30%;
+        opacity: 0;
+        transition: ease .5s;
+    }
+
+    header #forest_front,
+    #gajah,
+    #pohon {
+        position: absolute;
+        top: 0em;
+        left: 0;
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    .mx-custom {
+        margin: 0 40px;
+    }
+
+
+    .carousel-indicators [data-bs-target] {
+        width: 0 !important;
+        height: 0 !important;
+        text-indent: 0px !important;
+        border-radius: 50%;
+        color: #fff !important;
+        margin: 0 15px !important;
+
+    }
+
+
+    .box {
+        width: 80%;
+        height: 100%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5466780462184874) 20%, rgba(0, 0, 0, 0.8043811274509804) 35%, rgba(0, 0, 0, 0.9472382703081232) 90%, rgba(0, 0, 0, 1) 100%);
+        position: absolute;
+        right: 0;
+        z-index: 2;
+    }
+
+    .carousel-item {
+        width: 100%;
+        height: 300px;
+    }
+
+    .carousel-indicators {
+        margin-left: 15em !important;
+        bottom: 5em !important;
+        color: #fff !important;
+        width: 30%;
+        bottom: 10px !important;
+    }
+
+    .tahun-indicator {
+        position: absolute;
+        z-index: 6;
+        color: white;
+        bottom: 8%;
+        left: 45%;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px;
+    }
+
+    #titik-khusus .carousel .carousel-indicators button i {
+        font-size: 15px;
+    }
+
+    #timelapse .carousel .carousel-indicators button i {
+        font-size: 15px;
+    }
+
+    .content-titik {
+        position: relative;
+        z-index: 5;
+        color: white;
+        top: 15%;
+        width: 100%;
+        background: black;
+    }
+
+    .ket-def {
+        position: relative;
+        font-size: 11px;
+        bottom: 0%;
+        right: 0%;
+        z-index: 100;
+        color: #fff;
+        width: 300px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 1);
+    }
+}
+
+@media (max-width: 576px) {
+    .img-navbar {
+        width: 35px;
+    }
+
+    header {
+        width: 100%;
+        height: 219px;
+    }
+
+    .garis {
+        width: 1.5px;
+        height: 25px;
+        background-color: white;
+        margin-left: -2px;
+    }
+
+    #overlays {
+        top: 0;
+        width: 180%;
+        height: auto;
+        position: absolute;
+    }
+
+    h1 {
+        font-size: 30px !important;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+
+    .sub-title {
+        margin-left: 0em;
+        text-align: center;
+        font-size: 10px;
+        letter-spacing: 1.5px;
+
+    }
+
+    .text-header {
+        position: relative;
+        color: white;
+        top: 10px;
+        opacity: 0;
+        transition: ease .5s;
+    }
+
+    header #forest_front,
+    #gajah,
+    #pohon {
+        position: absolute;
+        top: 0em;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .mx-custom {
+        margin: 0 5px;
+    }
+
+    .carousel-indicators {
+        margin-left: 5.5em !important;
+        bottom: 5em !important;
+        color: #fff !important;
+        width: 50%;
+        bottom: 10px !important;
+    }
+
+    #titik-khusus .carousel .carousel-indicators button i {
+        font-size: 15px;
+    }
+
+    #timelapse .carousel .carousel-indicators button i {
+        font-size: 15px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 0 !important;
+        height: 0 !important;
+        text-indent: 0px !important;
+        border-radius: 50%;
+        color: #fff !important;
+        margin: 0 11px !important;
+
+    }
+
+    .line-indicators {
+        display: none;
+    }
+
+
+    .carousel-item {
+        width: 100%;
+        height: 220px;
+    }
+
+
+    .box {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .9);
+        position: absolute;
+        right: 0;
+        z-index: 2;
+    }
+
+    .text-article {
+        font-size: 14px;
+    }
+
+    .text-narasi {
+        font-size: 14px;
+    }
+
+    .tahun-indicator {
+        position: absolute;
+        z-index: 6;
+        color: white;
+        bottom: 10%;
+        left: 40%;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .tahun-def {
+        display: none;
+    }
+
+    .tahun-titik {
+        display: none;
+    }
+
+    .label>i {
+        position: absolute;
+        color: orange;
+        top: 75%;
+        left: 70%;
+        z-index: 1;
+    }
+
+    .label>i:nth-child(1) {
+        top: 60%;
+        left: 29%;
+    }
+
+    .label>i:nth-child(2) {
+        top: 50%;
+        left: 40%;
+    }
+
+    .label>i:nth-child(3) {
+        top: 35%;
+        left: 55%;
+    }
+
+    .label>i:nth-child(4) {
+        top: 55%;
+        left: 73%;
+    }
+
+    .label>i:nth-child(5) {
+        top: 75%;
+        left: 24%;
+    }
+
+    .ket-def {
+        position: absolute;
+        font-size: 11px;
+        bottom: 10%;
+        right: 10%;
+        z-index: 100;
+        color: #fff;
+        width: 300px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .content-titik {
+        position: relative;
+        z-index: 5;
+        color: white;
+        top: 15%;
+        width: 100%;
+        background: black;
+    }
+
+
+
+    .ket-def {
+        position: relative;
+        font-size: 11px;
+        bottom: 0%;
+        right: 0%;
+        z-index: 100;
+        color: #fff;
+        width: 300px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 1);
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    header {
+        width: 100%;
+        height: 400px;
+    }
+
+    #overlays {
+        top: 0;
+        width: 180%;
+        height: auto;
+        position: absolute;
+    }
+
+    h1 {
+        font-size: 25px !important;
+        letter-spacing: 10px;
+        text-align: center;
+    }
+
+    .sub-title {
+        font-size: 10px;
+        margin-left: 0em;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .text-header {
+        position: relative;
+        color: white;
+        top: 10%;
+        opacity: 0;
+        transition: ease .5s;
+    }
+
+    header #forest_front,
+    #gajah,
+    #pohon {
+        position: absolute;
+        top: 0em;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .mx-custom {
+        margin: 0 5px;
+    }
+
+    .label>i {
+        position: absolute;
+        color: orange;
+        top: 70%;
+        left: 26%;
+        z-index: 1;
+    }
+
+    .label>i:nth-child(1) {
+        top: 48%;
+        left: 30%;
+    }
+
+    .label>i:nth-child(2) {
+        top: 35%;
+        left: 40%;
+    }
+
+    .label>i:nth-child(3) {
+        top: 18%;
+        left: 55%;
+    }
+
+    .label>i:nth-child(4) {
+        top: 40%;
+        left: 73%;
+    }
+
+    .label>i:nth-child(5) {
+        top: 40%;
+        left: 73%;
+    }
+
+    .carousel-indicators {
+        margin-left: 4.5em !important;
+        bottom: 5em !important;
+        color: #fff !important;
+        width: 50%;
+        bottom: 10px !important;
+    }
+
+    #titik-khusus .carousel .carousel-indicators button i {
+        font-size: 12px;
+    }
+
+    #timelapse .carousel .carousel-indicators button i {
+        font-size: 12px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 0 !important;
+        height: 0 !important;
+        text-indent: 0px !important;
+        border-radius: 50%;
+        color: #fff !important;
+        margin: 0 8px !important;
+
+    }
+
+    .line-indicators {
+        display: none;
+    }
+
+
+    .carousel-item {
+        width: 100%;
+        height: 880px;
+    }
+
+    .tahun-indicator {
+        display: none;
+    }
+
+
+    #line-last {
+        width: 225px;
+        left: -1em;
+        display: none;
+    }
+
+    .tahun-def {
+        display: none;
+    }
+
+    .tahun-titik {
+        display: none;
+    }
+
+    .circle-2 {
+        text-align: center;
+        height: auto;
+        border-radius: 50%;
+        padding-top: 13px;
+        line-height: 0;
+        padding: 5px 10px;
+        display: inline;
+        margin: 0px 5px;
+    }
+
+    .circle-2:nth-child(2) {
+        padding: 10px 15px;
+    }
+
+    .circle-2:nth-child(3) {
+        padding: 15px 20px;
+    }
+
+    .circle-2:nth-child(4) {
+        padding: 20px 25px;
+    }
+
+    .box {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .9);
+        position: absolute;
+        right: 0;
+        z-index: 2;
+    }
+
+}

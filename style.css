@@ -1,0 +1,1172 @@
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+:root {
+    --dark-green: #115651;
+    --light-green: #01816a
+}
+
+.bg-dark-green {
+    background: var(--dark-green)
+}
+
+.bg-light-green {
+    background: var(--light-green)
+}
+
+.bg-black {
+    background: #000 !important
+}
+
+.text-narasi {
+    font-size: 20px
+}
+
+.pt-10 {
+    padding-top: 100px
+}
+
+.py-10 {
+    padding: 100px 0
+}
+
+.kotak {
+    width: 100%;
+    height: 30px
+}
+
+.gradasi-bw {
+    background: #fff;
+    background: linear-gradient(34deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 4%, rgba(255, 255, 255, 1) 8%, rgba(0, 0, 0, 1) 12%, rgba(255, 255, 255, 1) 16%, rgba(0, 0, 0, 1) 20%, rgba(255, 255, 255, 1) 24%, rgba(0, 0, 0, 1) 28%, rgba(255, 255, 255, 1) 32%, rgba(0, 0, 0, 1) 36%, rgba(255, 255, 255, 1) 40%, rgba(0, 0, 0, 1) 44%, rgba(255, 255, 255, 1) 48%, rgba(0, 0, 0, 1) 52%, rgba(255, 255, 255, 1) 56%, rgba(0, 0, 0, 1) 60%, rgba(255, 255, 255, 1) 64%, rgba(0, 0, 0, 1) 68%, rgba(255, 255, 255, 1) 72%, rgba(0, 0, 0, 1) 76%, rgba(255, 255, 255, 1) 80%, rgba(0, 0, 0, 1) 84%, rgba(255, 255, 255, 1) 88%, rgba(0, 0, 0, 1) 92%, rgba(255, 255, 255, 1) 96%, rgba(0, 0, 0, 1) 100%)
+}
+
+.garis-solid {
+    width: 100%;
+    background: transparent;
+    border-top: 5px solid #71BB9F;
+    margin-top: 14px
+}
+
+.garis-dash {
+    width: 100%;
+    background: transparent;
+    border-top: 3px dashed #CD4240;
+    margin-top: 14px
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%
+}
+
+.circle-2 {
+    text-align: center;
+    height: auto;
+    border-radius: 50%;
+    line-height: 0;
+    padding: 5px 10px;
+    display: inline;
+    margin: 0 5px
+}
+
+.circle-2:nth-child(2) {
+    padding: 15px 20px
+}
+
+.circle-2:nth-child(3) {
+    padding: 25px 30px
+}
+
+.circle-2:nth-child(4) {
+    padding: 35px 40px
+}
+
+.batas {
+    width: 100%;
+    height: 10px;
+    margin-top: 10px
+}
+
+.green {
+    background-color: #70BCA1
+}
+
+.yellow {
+    background-color: #ff0
+}
+
+.pink {
+    background-color: #ECAFB1
+}
+
+.red {
+    background-color: #C42D32 !important;
+    color: #fff
+}
+
+.orange {
+    background-color: #ffa600
+}
+
+.gradient-orange-yellow {
+    background: #ff5300;
+    background: linear-gradient(180deg, #ffa600 0%, #ff0 100%)
+}
+
+.mx-custom {
+    margin: 0 220px
+}
+
+body {
+    overflow-x: hidden
+}
+
+.top-60 {
+    top: 60% !important
+}
+
+.nav-link,
+.font-bebas {
+    font-family: 'Bebas Neue', cursive
+}
+
+.nav-link {
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #fff !important;
+    transition: all ease-in-out .3s !important
+}
+
+.nav-link:hover {
+    text-shadow: 2px 3.5px 3px rgba(0, 0, 0, 0.60);
+    color: #f5deb3 !important
+}
+
+.garis {
+    width: 3px;
+    height: 40px;
+    background-color: #fff;
+    margin-left: -2px
+}
+
+header {
+    background-image: url(images/header/background.png);
+    width: 100%;
+    height: 98vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden
+}
+
+#overlays {
+    top: 0;
+    width: 100%;
+    height: auto;
+    position: absolute
+}
+
+header #forest_front,
+#gajah,
+#pohon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto
+}
+
+h1 {
+    font-size: 100px !important;
+    letter-spacing: 20px
+}
+
+h2 {
+    font-size: 50px !important;
+    letter-spacing: 5px
+}
+
+.sub-title {
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-shadow: 3px 5px 3px rgba(0, 0, 0, 0.60);
+    margin-left: 18.5em
+}
+
+.text-header {
+    position: relative;
+    color: #fff;
+    top: 20%;
+    opacity: 0;
+    transition: ease .5s
+}
+
+.text-shadow {
+    text-shadow: 5px 8px 5px rgba(0, 0, 0, 0.60)
+}
+
+.shadow {
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.60) !important
+}
+
+#text>hr {
+    width: 60%;
+    height: 3px !important;
+    opacity: 1;
+    margin: 0 auto
+}
+
+.side-nav {
+    height: 60px;
+    width: 150px;
+    position: fixed;
+    background: #000;
+    border: none;
+    top: 50%;
+    left: -45px;
+    transform: rotate(90deg);
+    z-index: 1000
+}
+
+.side-nav>img {
+    width: 100%
+}
+
+nav {
+    position: relative;
+    z-index: 100
+}
+
+.label>i {
+    position: absolute;
+    color: orange;
+    top: 70%;
+    left: 75%;
+    z-index: 1
+}
+
+.label>i:nth-child(1) {
+    top: 45%;
+    left: 30%
+}
+
+.label>i:nth-child(2) {
+    top: 30%;
+    left: 40%
+}
+
+.label>i:nth-child(3) {
+    top: 13%;
+    left: 55%
+}
+
+.label>i:nth-child(4) {
+    top: 35%;
+    left: 75%
+}
+
+.label>i:nth-child(5) {
+    top: 70%;
+    left: 26%
+}
+
+#peta {
+    height: 1800px
+}
+
+#peta>div {
+    width: 100%;
+    height: 1800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 1s ease opacity;
+    position: absolute
+}
+
+#sumatera {
+    background-image: url(images/PetaSumatera.jpeg);
+    background-color: #353334;
+    background-position: 0 -70px
+}
+
+#tesso {
+    background-image: url(images/PetaTessoNilo.jpg);
+    background-position: 0 -30px
+}
+
+#tesso-nilo {
+    background-image: url(images/PetaTesso.jpg);
+    background-position: 0 -30px !important
+}
+
+#peta-tn {
+    height: 1000px
+}
+
+#peta-tn>div {
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute
+}
+
+.btn-peta-close {
+    box-sizing: content-box;
+    width: 2em;
+    height: 2em;
+    padding: .5em !important;
+    border: 0;
+    border-radius: 0 !important;
+    opacity: 1 !important;
+    color: #000 !important;
+    background: #fff;
+    z-index: 3 !important;
+    position: absolute;
+    right: 1em;
+    top: 1em
+}
+
+.fa-xmark {
+    font-size: 30px !important;
+    font-weight: bolder !important
+}
+
+.box-modal {
+    width: 60%;
+    height: 100%;
+    background: #000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5466780462184874) 20%, rgba(0, 0, 0, 0.8043811274509804) 35%, rgba(0, 0, 0, 0.9472382703081232) 90%, rgba(0, 0, 0, 1) 100%);
+    position: absolute;
+    right: 0;
+    z-index: 1
+}
+
+.content-box-modal {
+    position: absolute;
+    top: 8em;
+    color: #fff;
+    z-index: 2
+}
+
+.text-article {
+    font-size: 20px
+}
+
+.box {
+    width: 50%;
+    height: 100%;
+    background: #000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5466780462184874) 20%, rgba(0, 0, 0, 0.8043811274509804) 35%, rgba(0, 0, 0, 0.9472382703081232) 90%, rgba(0, 0, 0, 1) 100%);
+    position: absolute;
+    right: 0;
+    z-index: 2
+}
+
+.content {
+    position: relative;
+    z-index: 5;
+    color: #fff;
+    top: 5em
+}
+
+#lahan {
+    height: 1600px
+}
+
+#lahan>div {
+    width: 100%;
+    height: 1600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 1s ease opacity;
+    position: absolute
+}
+
+#lahan-tutup {
+    background-image: url(images/PetaTutupanPohonyangHilang.jpg)
+}
+
+#lahan-tutup-eng {
+    background-image: url(images/eng/PetaTutupanPohonyangHilangBahasaInggris.jpg) !important
+}
+
+#lahan-tata {
+    background-image: url(images/PetaTataGunaLahan.jpg)
+}
+
+#faktor {
+    padding: 2em 0 5em;
+    background-image: url(images/faktor.jpeg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#faktor2 {
+    padding: 2em 0 5em;
+    background-image: url(images/faktor2.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.btn-tombol {
+    border: none;
+    background: transparent
+}
+
+#titik-khusus {
+    position: relative
+}
+
+.content-titik {
+    position: absolute;
+    z-index: 5;
+    color: #fff;
+    top: 15%;
+    width: 100%;
+    background: transparent
+}
+
+.carousel-indicators {
+    margin-left: 5em !important;
+    color: #fff !important;
+    width: 50%;
+    bottom: 20px !important
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 0 !important;
+    height: 0 !important;
+    text-indent: 0 !important;
+    border-radius: 50%;
+    color: #fff !important;
+    margin: 0 18px !important
+}
+
+.carousel-item {
+    width: 100%;
+    height: 800px
+}
+
+.content-carousel {
+    position: relative;
+    top: 2%;
+    z-index: 5;
+    color: #fff
+}
+
+#titik-1992 {
+    background: url(images/tik/1992-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-1999 {
+    background: url(images/tik/1999-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2004 {
+    background: url(images/tik/2004-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2009 {
+    background: url(images/tik/2009-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2010 {
+    background: url(images/tik/2010-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2011 {
+    background: url(images/tik/2011-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2012 {
+    background: url(images/tik/2012-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2013 {
+    background: url(images/tik/2013-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2014 {
+    background: url(images/tik/2014-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2015 {
+    background: url(images/tik/2015-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2016 {
+    background: url(images/tik/2016-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2017 {
+    background: url(images/tik/2017-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2018 {
+    background: url(images/tik/2018-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2019 {
+    background: url(images/tik/2019-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2020 {
+    background: url(images/tik/2020-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-2021 {
+    background: url(images/tik/2021-tik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.tahun-titik {
+    position: absolute;
+    top: 50px;
+    font-size: 50px;
+    padding: 35px 15px 15px;
+    line-height: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+#def-1992 {
+    background-image: url(images/def/1992-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-1999 {
+    background-image: url(images/def/1999-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2004 {
+    background-image: url(images/def/2004-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2009 {
+    background-image: url(images/def/2009-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2010 {
+    background-image: url(images/def/2010-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2011 {
+    background-image: url(images/def/2011-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2012 {
+    background-image: url(images/def/2012-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2013 {
+    background-image: url(images/def/2013-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2014 {
+    background-image: url(images/def/2014-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2015 {
+    background-image: url(images/def/2015-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2016 {
+    background-image: url(images/def/2016-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2017 {
+    background-image: url(images/def/2017-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2018 {
+    background-image: url(images/def/2018-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2019 {
+    background-image: url(images/def/2019-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2020 {
+    background-image: url(images/def/2020-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-2021 {
+    background-image: url(images/def/2021-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#titik-khusus .carousel .carousel-indicators button {
+    opacity: 1 !important
+}
+
+#timelapse .carousel .carousel-indicators button {
+    opacity: 1 !important
+}
+
+#titik-khusus .carousel .carousel-indicators button i {
+    font-size: 20px
+}
+
+#timelapse .carousel .carousel-indicators button i {
+    font-size: 20px
+}
+
+.tahun-def {
+    position: absolute;
+    top: 40px;
+    font-size: 50px;
+    padding: 35px 15px 15px;
+    line-height: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+.tahun-indicator {
+    position: absolute;
+    z-index: 6;
+    color: #fff;
+    bottom: 4.5%;
+    left: 10em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px
+}
+
+.ket-def {
+    position: absolute;
+    font-size: 11px;
+    bottom: 7%;
+    right: 35%;
+    z-index: 100;
+    color: #fff;
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+#timeline {
+    width: 100%;
+    height: 120vh;
+    color: #fff;
+    position: relative
+}
+
+.timeline-icon {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    z-index: 5;
+    color: #fff;
+    font-size: 20px;
+    padding: 18px 20px 5px;
+    line-height: 0;
+    font-weight: bolder;
+    background: rgba(0, 0, 0, 0.5);
+    animation: fa-person 2s ease 0 infinite normal forwards
+}
+
+@keyframes fa-person {
+
+    0%,
+    100% {
+        transform: translateX(0)
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        transform: translateX(-10px)
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: translateX(10px)
+    }
+
+    80% {
+        transform: translateX(8px)
+    }
+
+    90% {
+        transform: translateX(-8px)
+    }
+}
+
+#timeline .owl-carousel .items {
+    width: 100%;
+    height: 110vh
+}
+
+#one {
+    background: url(images/timeline/Sebelum-Tahun-2004.jpg)
+}
+
+#two {
+    background: url(images/timeline/2004.jpg)
+}
+
+#three {
+    background: url(images/timeline/2009.jpg)
+}
+
+#four {
+    background: url(images/timeline/Saat-Ini.jpg)
+}
+
+.content-timeline {
+    width: 500px;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20%
+}
+
+.content-timeline .title-timeline {
+    font-size: 50px;
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, .5)
+}
+
+.content-timeline .text-timeline {
+    font-size: 15px;
+    padding: 10px 15px;
+    background: rgba(0, 0, 0, .65);
+    border-radius: 10px
+}
+
+.line-timeline {
+    margin: 20px 0
+}
+
+.line-timeline i {
+    font-size: 50px
+}
+
+.line-timeline .line {
+    height: 10px;
+    background: #fff;
+    position: relative;
+    top: -30px
+}
+
+#line-first {
+    width: 700px;
+    left: 15em
+}
+
+#line-mid {
+    width: 1350px;
+    left: -26.5em
+}
+
+#line-last {
+    width: 680px;
+    left: -28em
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.548) !important;
+    z-index: 10;
+    font-size: 4.5rem !important;
+    padding: 0 500px !important
+}
+
+.owl-prev {
+    left: 1em
+}
+
+.owl-next {
+    right: 1em
+}
+
+@media (max-width: 992px) {
+    .content-timeline {
+        width: 500px;
+        text-align: center;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 30%
+    }
+
+    #timeline {
+        width: 100%;
+        height: auto;
+        color: #fff;
+        position: relative
+    }
+
+    #timeline .owl-carousel .items {
+        width: 100%;
+        height: 75vh
+    }
+
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        top: 40%;
+        background-color: rgba(0, 0, 0, 0.548) !important;
+        z-index: 10;
+        font-size: 4.5rem !important;
+        padding: 0 500px !important
+    }
+
+    .owl-prev {
+        left: 1em
+    }
+
+    .owl-next {
+        right: 1em
+    }
+}
+
+@media (max-width: 768px) {
+    .content-timeline {
+        width: 500px;
+        text-align: center;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 30%
+    }
+
+    #timeline {
+        width: 100%;
+        height: auto;
+        color: #fff;
+        position: relative
+    }
+
+    #timeline .owl-carousel .items {
+        width: 100%;
+        height: 75vh
+    }
+
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        top: 40%;
+        background-color: rgba(0, 0, 0, 0.548) !important;
+        z-index: 10;
+        font-size: 3rem !important;
+        padding: 0 500px !important
+    }
+
+    .owl-prev {
+        left: 1em
+    }
+
+    .owl-next {
+        right: 1em
+    }
+
+    .timeline-icon {
+        right: 10%
+    }
+}
+
+@media (max-width: 576px) {
+    .content-timeline {
+        width: 350px;
+        text-align: center;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 20%
+    }
+
+    #timeline {
+        width: 100%;
+        height: auto;
+        color: #fff;
+        position: relative
+    }
+
+    #timeline .owl-carousel .items {
+        width: 100%;
+        height: 100vh
+    }
+
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        top: 20%;
+        background-color: rgba(0, 0, 0, 0.548) !important;
+        z-index: 10;
+        font-size: 2rem !important
+    }
+
+    .owl-prev {
+        left: .5em
+    }
+
+    .owl-next {
+        right: .5em
+    }
+
+    .timeline-icon {
+        right: 10%;
+        bottom: 5%
+    }
+
+    #line-first {
+        width: 300px;
+        left: 12em
+    }
+
+    #line-mid {
+        width: 500px;
+        left: -1em
+    }
+
+    #line-last {
+        width: 650px;
+        left: -28em
+    }
+}
+
+.pb-6 {
+    padding-bottom: 10em
+}
+
+footer {
+    background-image: url(images/footer.jpg) !important;
+    width: 100%;
+    height: auto !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+#def-eng-1992 {
+    background-image: url(images/eng/def/1992.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-1999 {
+    background-image: url(images/def/1999-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2004 {
+    background-image: url(images/eng/def/2004.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2009 {
+    background-image: url(images/def/2009.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2010 {
+    background-image: url(images/def/2010-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2011 {
+    background-image: url(images/def/2011-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2012 {
+    background-image: url(images/eng/def/2012.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2013 {
+    background-image: url(images/eng/def/2013.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2014 {
+    background-image: url(images/def/2014-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2015 {
+    background-image: url(images/def/2015-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2016 {
+    background-image: url(images/eng/def/2016s.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2017 {
+    background-image: url(images/eng/def/2017.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2018 {
+    background-image: url(images/def/2018-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2019 {
+    background-image: url(images/def/2019-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2020 {
+    background-image: url(images/def/2020-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#def-eng-2021 {
+    background-image: url(images/eng/def/2021.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
