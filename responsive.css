@@ -53,7 +53,7 @@
         padding: 5px;
     }
 
-     .line-timeline i {
+    .line-timeline i {
         font-size: 50px
     }
 
@@ -169,7 +169,7 @@
         padding: 5px;
     }
 
-     .line-timeline i {
+    .line-timeline i {
         font-size: 50px
     }
 
@@ -305,7 +305,7 @@
         background-color: rgba(0, 0, 0, 1);
     }
 
-     .line-timeline i {
+    .line-timeline i {
         font-size: 50px
     }
 
@@ -517,7 +517,7 @@
         padding: 10px;
         background-color: rgba(0, 0, 0, 1);
     }
-    
+
     .line-timeline i {
         font-size: 50px
     }
@@ -529,19 +529,24 @@
         left: 50%;
     }
 
+    .text-refrensi {
+        font-size: 12px;
+    }
+
+
 }
 
 @media (max-width: 380px) {
-.line-timeline i {
-    font-size: 50px
-}
+    .line-timeline i {
+        font-size: 50px
+    }
 
-.line-timeline i:nth-child(2) {
-    font-size: 60px;
-    position: absolute;
-    top: 6.1%;
-    left: 55%;
-}
+    .line-timeline i:nth-child(2) {
+        font-size: 60px;
+        position: absolute;
+        top: 6.1%;
+        left: 55%;
+    }
 
     header {
         width: 100%;
