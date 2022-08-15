@@ -64,13 +64,12 @@
 }
 
 .circle-2 {
+    font-size: 30px;
     text-align: center;
-    height: auto;
     border-radius: 50%;
     line-height: 0;
-    padding: 5px 10px;
+    padding: 25px 33px;
     display: inline;
-    margin: 0 5px
 }
 
 .circle-2:nth-child(2) {
@@ -473,112 +472,112 @@ nav {
 }
 
 #titik-1992 {
-    background: url(images/tik/1992-tik.jpg);
+    background: url(images/tik/1992-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-1999 {
-    background: url(images/tik/1999-tik.jpg);
+    background: url(images/tik/1999-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2004 {
-    background: url(images/tik/2004-tik.jpg);
+    background: url(images/tik/2004-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2009 {
-    background: url(images/tik/2009-tik.jpg);
+    background: url(images/tik/2009-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2010 {
-    background: url(images/tik/2010-tik.jpg);
+    background: url(images/tik/2010-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2011 {
-    background: url(images/tik/2011-tik.jpg);
+    background: url(images/tik/2011-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2012 {
-    background: url(images/tik/2012-tik.jpg);
+    background: url(images/tik/2012-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2013 {
-    background: url(images/tik/2013-tik.jpg);
+    background: url(images/tik/2013-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2014 {
-    background: url(images/tik/2014-tik.jpg);
+    background: url(images/tik/2014-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2015 {
-    background: url(images/tik/2015-tik.jpg);
+    background: url(images/tik/2015-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2016 {
-    background: url(images/tik/2016-tik.jpg);
+    background: url(images/tik/2016-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2017 {
-    background: url(images/tik/2017-tik.jpg);
+    background: url(images/tik/2017-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2018 {
-    background: url(images/tik/2018-tik.jpg);
+    background: url(images/tik/2018-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2019 {
-    background: url(images/tik/2019-tik.jpg);
+    background: url(images/tik/2019-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2020 {
-    background: url(images/tik/2020-tik.jpg);
+    background: url(images/tik/2020-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 #titik-2021 {
-    background: url(images/tik/2021-tik.jpg);
+    background: url(images/tik/2021-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
